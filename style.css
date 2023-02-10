@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+section{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+article{
+    width: 400px;
+    background-color: grey;
+    margin: 10px;
+    color: beige;
+    text-align: justify;
+    margin: 5px;
+    background: #9c9c9c;
+}
+article:nth-of-type(4)  {
+    flex-grow: 10; 
+  }
+  article:nth-of-type(5)  {
+    flex-grow: 10; 
+  }
+  article:nth-of-type(6)  {
+    flex-grow: 10; 
+  }
+header{
+    background-color: red;
+    color: white;
+}
+
